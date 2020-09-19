@@ -1,5 +1,4 @@
 const badSites = [
-"*://*.localhost/*",
 "*://*.analytics.163.com/*",
 "*://*.mt.analytics.163.com/*",
 "*://*.crash.163.com/*",
