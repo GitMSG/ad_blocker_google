@@ -1,0 +1,11 @@
+{
+    "manifest_version":2,
+    "name": "Ad Blocker",
+    "description": "Block stupid ads",
+    "version": "1.0",
+    
+    "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+    "background": {
+        "scripts": ["bad_sites.js","background.js"]
+    }
+}
